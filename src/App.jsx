@@ -3,7 +3,7 @@ import axios from "axios";
 import Header from "./components/Header";
 import SlotCard from "./components/SlotCard";
 
-const BACKEND = "https://smartparking-lyla.onrender.com";
+const BACKEND = "https://smartparking-ly1a.onrender.com";
 
 export default function App() {
   const [slots, setSlots] = useState({ 1: false, 2: false, 3: false });
